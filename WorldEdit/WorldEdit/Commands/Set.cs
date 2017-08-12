@@ -37,7 +37,7 @@ namespace WorldEdit.Commands
         {
             new Thread(() =>
             {
-                if(blockId > 0xff)
+                if(blockId.CompareTo(0xff) > 0)
                 {
                     sender.SendMessage(ChatColors.DarkRed + "Invalid id.");
 

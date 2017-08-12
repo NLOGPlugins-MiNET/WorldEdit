@@ -47,6 +47,7 @@ namespace WorldEdit
             Context.PluginManager.LoadCommands(new Pos1(this));
             Context.PluginManager.LoadCommands(new Pos2(this));
             Context.PluginManager.LoadCommands(new Set(this));
+            Context.PluginManager.LoadCommands(new Wand(this));
         }
 
         /*

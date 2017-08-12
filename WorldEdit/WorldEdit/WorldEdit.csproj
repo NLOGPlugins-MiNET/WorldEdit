@@ -72,6 +72,7 @@
     <Compile Include="Commands\Pos1.cs" />
     <Compile Include="Commands\Pos2.cs" />
     <Compile Include="Commands\Set.cs" />
+    <Compile Include="Commands\Wand.cs" />
     <Compile Include="WorldEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
