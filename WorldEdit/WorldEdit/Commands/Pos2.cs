@@ -20,21 +20,21 @@ using MiNET;
 
 namespace WorldEdit.Commands
 {
-    public class Pos1
+    public class Pos2
     {
         private WorldEdit Plugin { get; set; }
 
-        public Pos1(WorldEdit plugin)
+        public Pos2(WorldEdit plugin)
         {
             Plugin = plugin;
         }
 
-        [Command(Name = "/pos1", Description = "Selects your first position.", Permission = "worldedit.command.pos1")]
+        [Command(Name = "/pos2", Description = "Selects your second position.", Permission = "worldedit.command.pos2")]
         public void Launch(Player sender)
         {
-            Plugin.SetFirstPosition(sender);
+            Plugin.SetSecondPosition(sender);
 
-            sender.SendMessage(ChatColors.Gray + "First position selected to X: " + (int) sender.KnownPosition.X + " Y: " + (int) sender.KnownPosition.Y + " Z: " + (int) sender.KnownPosition.Z);
+            sender.SendMessage(ChatColors.Gray + "Second position selected to X: " + (int) sender.KnownPosition.X + " Y: " + (int) sender.KnownPosition.Y + " Z: " + (int) sender.KnownPosition.Z);
         }
     }
 }
