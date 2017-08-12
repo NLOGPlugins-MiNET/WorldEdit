@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Pos1.cs" />
     <Compile Include="WorldEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
