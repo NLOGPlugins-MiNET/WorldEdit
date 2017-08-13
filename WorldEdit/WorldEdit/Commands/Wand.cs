@@ -50,7 +50,7 @@ namespace WorldEdit.Commands
 
             sender.Inventory.SetInventorySlot(0, new ItemWoodenAxe() { Count = 1 });
 
-            sender.SendMessage(ChatColors.Gray + "Break a block to select the #1 position and place for the #2 position.");
+            sender.SendMessage(ChatColors.Gray + "Break a block to select the #1 position and touch for the #2 position.");
         }
     }
 }
